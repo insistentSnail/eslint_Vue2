@@ -1,0 +1,9 @@
+{
+  "vetur.validation.template": false,
+  "editor.formatOnSave": false,// 取消自带fix，使用eslint自动保存fix    
+  "eslint.validate": ["javascript","vue","html"],  // 配置 ESLint 检查的文件类型
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true// 启用eslint格式化工具
+  },
+  "editor.codeActionsOnSaveTimeout":5000//对于大文件自动修复需要比较长的时间，一直计算直到时间耗尽，这种情况下可以配置一下超时时间：
+}
